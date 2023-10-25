@@ -1,8 +1,8 @@
 ﻿namespace FizzBuzz 
 {
-    class Program 
+    public class Program 
     {
-        string FizzBuzz(int number) 
+        public string FizzBuzz(int number) 
         {
             if (number % 3 == 0 && number % 5 == 0) 
             {
@@ -22,7 +22,6 @@
             }
         }
 
-        Console.WriteLine(FizzBuzz(15));
     }
 }
 
